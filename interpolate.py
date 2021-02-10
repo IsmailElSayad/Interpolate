@@ -83,6 +83,6 @@ def interpolate_and_post(current: ProductSales, prev: ProductSales) -> None:
 
 
 #check test example
-#current = ProductSales(11, 21, datetime(2021, 2, 10), 9)
-#prev = ProductSales(delta=5, total=10, date=datetime(2021, 2, 7), product_id=9);
-#interpolate_and_post(current, prev);
+current = ProductSales(11, 21, datetime(2021, 2, 10), 9)
+prev = ProductSales(delta=5, total=10, date=datetime(2021, 2, 7), product_id=9);
+interpolate_and_post(current, prev);
